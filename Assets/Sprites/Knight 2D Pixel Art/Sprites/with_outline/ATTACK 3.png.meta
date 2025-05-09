@@ -1,49 +1,37 @@
 fileFormatVersion: 2
-guid: 3150d3363853a8e4ab142b463a69c9c9
+guid: 28f16f79100273743a422bc29ebcf884
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4285570699050609653
-    second: winter__0
+      213: 5657851921139860834
+    second: ATTACK 3_0
   - first:
-      213: -5883579631861160209
-    second: winter__1
+      213: 8167334401786168451
+    second: ATTACK 3_1
   - first:
-      213: 1888808289451513761
-    second: winter__2
+      213: -2486501126090535953
+    second: ATTACK 3_2
   - first:
-      213: -3131966978112531691
-    second: winter__3
+      213: 5461953342878467935
+    second: ATTACK 3_3
   - first:
-      213: 6610729191161157778
-    second: winter__4
+      213: 2706193367312493655
+    second: ATTACK 3_4
   - first:
-      213: -2825757286325143288
-    second: winter__5
+      213: -8047713305943468122
+    second: ATTACK 3_5
   - first:
-      213: 6029201898132375304
-    second: winter__6
+      213: -2616100659346094035
+    second: ATTACK 3_6
   - first:
-      213: -573453249474152822
-    second: winter__7
+      213: -401008498080134979
+    second: ATTACK 3_7
   - first:
-      213: -2071663237938737889
-    second: winter__8
+      213: 5010935248932497974
+    second: ATTACK 3_8
   - first:
-      213: -5794816846208916758
-    second: winter__9
-  - first:
-      213: -9047758803585613886
-    second: winter__10
-  - first:
-      213: -6985970716705083433
-    second: winter__11
-  - first:
-      213: -4950159595964293956
-    second: winter__12
-  - first:
-      213: -5955430103800895636
-    second: winter__13
+      213: -573243720678724564
+    second: ATTACK 3_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -152,13 +140,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: winter__0
+      name: ATTACK 3_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 294
-        width: 202
-        height: 20
+        x: 123
+        y: 21
+        width: 32
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b041447b7289684c0800000000000000
-      internalID: -4285570699050609653
+      spriteID: 2658d4f785ab48e40800000000000000
+      internalID: 5657851921139860834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: winter__1
+      name: ATTACK 3_1
       rect:
         serializedVersion: 2
-        x: 214
-        y: 294
-        width: 10
-        height: 20
+        x: 218
+        y: 21
+        width: 55
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe621335f73595ea0800000000000000
-      internalID: -5883579631861160209
+      spriteID: 384ca44bd53385170800000000000000
+      internalID: 8167334401786168451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: winter__2
+      name: ATTACK 3_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 239
-        width: 202
-        height: 50
+        x: 314
+        y: 21
+        width: 55
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a71295c125663a10800000000000000
-      internalID: 1888808289451513761
+      spriteID: febc3cd566c2e7dd0800000000000000
+      internalID: -2486501126090535953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: winter__3
+      name: ATTACK 3_3
       rect:
         serializedVersion: 2
-        x: 214
-        y: 239
-        width: 10
-        height: 50
+        x: 341
+        y: 58
+        width: 21
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 513595590a40984d0800000000000000
-      internalID: -3131966978112531691
+      spriteID: f57470e60a1cccb40800000000000000
+      internalID: 5461953342878467935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: winter__4
+      name: ATTACK 3_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 214
-        width: 202
-        height: 20
+        x: 456
+        y: 42
+        width: 9
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,20 +243,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 29857799c270ebb50800000000000000
-      internalID: 6610729191161157778
+      spriteID: 75ced2097845e8520800000000000000
+      internalID: 2706193367312493655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: winter__5
+      name: ATTACK 3_5
       rect:
         serializedVersion: 2
-        x: 214
-        y: 214
-        width: 10
-        height: 20
+        x: 22
+        y: 21
+        width: 40
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,20 +265,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8093e1738b4e8c8d0800000000000000
-      internalID: -2825757286325143288
+      spriteID: 6a71e090367c05090800000000000000
+      internalID: -8047713305943468122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: winter__6
+      name: ATTACK 3_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 159
-        width: 202
-        height: 50
+        x: 409
+        y: 21
+        width: 50
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8078a49ae270ca350800000000000000
-      internalID: 6029201898132375304
+      spriteID: d28c20f9f4eb1bbd0800000000000000
+      internalID: -2616100659346094035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: winter__7
+      name: ATTACK 3_7
       rect:
         serializedVersion: 2
-        x: 214
-        y: 159
-        width: 10
-        height: 50
+        x: 457
+        y: 30
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,20 +309,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a86bcc1de4faa08f0800000000000000
-      internalID: -573453249474152822
+      spriteID: db8450845e45f6af0800000000000000
+      internalID: -401008498080134979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: winter__8
+      name: ATTACK 3_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 134
-        width: 202
-        height: 20
+        x: 459
+        y: 35
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,20 +331,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f1d0d60e249ff33e0800000000000000
-      internalID: -2071663237938737889
+      spriteID: 63aea115f0b6a8540800000000000000
+      internalID: 5010935248932497974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: winter__9
+      name: ATTACK 3_9
       rect:
         serializedVersion: 2
-        x: 214
-        y: 134
-        width: 10
-        height: 20
+        x: 507
+        y: 21
+        width: 36
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,96 +353,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae2a447d7cca49fa0800000000000000
-      internalID: -5794816846208916758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: winter__10
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 79
-        width: 202
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2cfbdd22e47ef6280800000000000000
-      internalID: -9047758803585613886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: winter__11
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 79
-        width: 10
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7df238b75a8dc0f90800000000000000
-      internalID: -6985970716705083433
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: winter__12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 54
-        width: 193
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cbc9e0513108d4bb0800000000000000
-      internalID: -4950159595964293956
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: winter__13
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 193
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c67a742bfdf0a5da0800000000000000
-      internalID: -5955430103800895636
+      spriteID: c2ca83b8fdd6b08f0800000000000000
+      internalID: -573243720678724564
       vertices: []
       indices: 
       edges: []
@@ -472,21 +372,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      winter__0: -4285570699050609653
-      winter__1: -5883579631861160209
-      winter__10: -9047758803585613886
-      winter__11: -6985970716705083433
-      winter__12: -4950159595964293956
-      winter__13: -5955430103800895636
-      winter__2: 1888808289451513761
-      winter__3: -3131966978112531691
-      winter__4: 6610729191161157778
-      winter__5: -2825757286325143288
-      winter__6: 6029201898132375304
-      winter__7: -573453249474152822
-      winter__8: -2071663237938737889
-      winter__9: -5794816846208916758
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
