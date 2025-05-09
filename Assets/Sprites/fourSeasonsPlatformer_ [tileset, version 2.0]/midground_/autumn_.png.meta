@@ -472,7 +472,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      autumn__0: 8834201252307462264
+      autumn__1: -6384417732488274159
+      autumn__10: 6304746347239972228
+      autumn__11: 6090552400683207107
+      autumn__12: 7191637839938121538
+      autumn__13: 1539891564670979646
+      autumn__2: -136971159253295154
+      autumn__3: 8581302305791642724
+      autumn__4: -3061899838092807174
+      autumn__5: 2388069062351412187
+      autumn__6: 281015765724275496
+      autumn__7: -1124525535706166877
+      autumn__8: 4537699295981550850
+      autumn__9: -8607967505112050033
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

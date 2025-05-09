@@ -672,7 +672,29 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Brickhead_1_1_0: 1854002987839633463
+      Brickhead_1_1_1: 6730993961384289358
+      Brickhead_1_1_10: 680994951923096017
+      Brickhead_1_1_11: -8686427682704244606
+      Brickhead_1_1_12: 5290388027367959029
+      Brickhead_1_1_13: -3003336366952156220
+      Brickhead_1_1_14: -1998399131459923944
+      Brickhead_1_1_15: 4033654562550375668
+      Brickhead_1_1_16: 1111804360116174590
+      Brickhead_1_1_17: 620220999707969588
+      Brickhead_1_1_18: -5652534893353933744
+      Brickhead_1_1_19: -5080157488582787352
+      Brickhead_1_1_2: -1623661905083995563
+      Brickhead_1_1_20: 8361888203054911874
+      Brickhead_1_1_21: 695247607781641838
+      Brickhead_1_1_3: 6317364607385866915
+      Brickhead_1_1_4: -2481985660561783676
+      Brickhead_1_1_5: 912218714743991696
+      Brickhead_1_1_6: -2328991191914493898
+      Brickhead_1_1_7: -5067708370529924182
+      Brickhead_1_1_8: 6926301438124268598
+      Brickhead_1_1_9: -3885475337380704837
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
