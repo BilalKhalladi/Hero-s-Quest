@@ -9,9 +9,11 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     private bool onIce = false;
     private float velocityXSmoothing;
+    private Animator animator;
     private void Start()
     {
         body = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
 
         string currentScene = SceneManager.GetActiveScene().name;
         if (currentScene == "Level 2")
@@ -28,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 body.linearVelocity = new Vector2(body.linearVelocity.x, jumpForce);
                 isGrounded = false;
+                animator.SetBool("Grounded", false);
             }
         }
 
@@ -42,6 +45,8 @@ public class PlayerMovement : MonoBehaviour
         }
 
         body.transform.rotation = Quaternion.identity;
+
+        animator.SetBool("Run", horizontalInput != 0);
     }
 
     private void FixedUpdate()
@@ -65,6 +70,7 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Ice"))
         {
             isGrounded = true;
+            animator.SetBool("Grounded", true);
         }
     }
 }
