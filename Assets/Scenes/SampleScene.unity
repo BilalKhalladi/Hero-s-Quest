@@ -485,8 +485,8 @@ MonoBehaviour:
   - {fileID: 401366730}
   moveDistance: 1.5
   delayBetweenMoves: 0.075
-  moveSpeed: 10
-  pauseTime: 0.35
+  moveSpeed: 20
+  pauseTime: 0.2
 --- !u!61 &245618266
 BoxCollider2D:
   m_ObjectHideFlags: 0

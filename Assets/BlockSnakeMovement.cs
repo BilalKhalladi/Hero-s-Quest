@@ -41,7 +41,7 @@ public class BlockSnakeMovement : MonoBehaviour
         Vector3 targetPos = startPos + offset;
         float elapsedTime = 0;
 
-        while (elapsedTime < 0)
+        while (elapsedTime < 1)
         {
             block.position = Vector3.Lerp(startPos, targetPos, elapsedTime);
             elapsedTime += Time.deltaTime * moveSpeed;
