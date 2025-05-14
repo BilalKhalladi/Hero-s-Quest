@@ -4,10 +4,10 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Cactus
   - Platform
   - Ground
   - Ice
+  - Trap
   layers:
   - Default
   - TransparentFX

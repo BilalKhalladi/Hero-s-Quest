@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,6 +11,10 @@ public class PlayerMovement : MonoBehaviour
     private bool onIce = false;
     private float velocityXSmoothing;
     private Animator animator;
+    private int lives = 3;
+    public GameObject [] hearts;
+    
+
     private void Start()
     {
         body = GetComponent<Rigidbody2D>();
@@ -67,10 +72,38 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.CompareTag("Trap"))
+        {
+        
+            if(lives <= 0)
+            {
+                RestartLevel();
+            }
+            else
+            {
+                hearts[lives].SetActive(false);
+                StartCoroutine(DecreaseLivesWithDelay());
+            }
+
+        }
+
         if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Ice"))
         {
             isGrounded = true;
             animator.SetBool("Grounded", true);
         }
     }
+
+    private IEnumerator DecreaseLivesWithDelay()
+    {
+        yield return new WaitForSeconds(1f); 
+        lives -= 1; 
+    }
+
+    public void RestartLevel()
+    {
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name);
+    }
+
 }
