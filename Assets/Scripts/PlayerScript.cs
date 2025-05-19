@@ -87,6 +87,11 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
+        if (collision.gameObject.CompareTag("Limit"))
+        {
+            RestartLevel();
+        }
+
         if (collision.gameObject.CompareTag("Live"))
         {
             if (lives >= 3)

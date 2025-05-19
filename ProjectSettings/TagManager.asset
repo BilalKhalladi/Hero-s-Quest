@@ -9,6 +9,7 @@ TagManager:
   - Ice
   - Trap
   - Live
+  - Limit
   layers:
   - Default
   - TransparentFX
