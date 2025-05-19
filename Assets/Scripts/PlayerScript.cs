@@ -87,6 +87,22 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
+        if (collision.gameObject.CompareTag("Live"))
+        {
+            if (lives >= 3)
+            {
+                Destroy(collision.gameObject);
+
+            }
+            else
+            {
+                lives += 1;
+                hearts[lives].SetActive(true);
+                Destroy(collision.gameObject);
+            }
+            
+        }
+
         if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Ice"))
         {
             isGrounded = true;

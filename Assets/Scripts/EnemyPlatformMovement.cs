@@ -4,23 +4,36 @@ public class EnemyPlatformMovement : MonoBehaviour
 {
     public float speed = 2f;
     public float moveDistance = 5f;
+    public bool moveVertically = false;  
 
-    private float startX;
+    private float startPos;
     private int direction = 1;
 
     void Start()
     {
-        startX = transform.position.x;
+        startPos = moveVertically ? transform.position.y : transform.position.x;
     }
 
     void Update()
     {
-        transform.Translate(Vector2.right * speed * direction * Time.deltaTime);
 
-        if (Mathf.Abs(transform.position.x - startX) >= moveDistance)
+        if (moveVertically)
         {
-            direction *= -1;
+            transform.Translate(Vector2.up * speed * direction * Time.deltaTime);
+
+            if (Mathf.Abs(transform.position.y - startPos) >= moveDistance)
+            {
+                direction *= -1; 
+            }
+        }
+        else
+        {
+            transform.Translate(Vector2.right * speed * direction * Time.deltaTime);
+
+            if (Mathf.Abs(transform.position.x - startPos) >= moveDistance)
+            {
+                direction *= -1; 
+            }
         }
     }
 }
-
