@@ -10,6 +10,7 @@ TagManager:
   - Trap
   - Live
   - Limit
+  - Cactus
   layers:
   - Default
   - TransparentFX

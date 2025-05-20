@@ -120,11 +120,26 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(1f); 
         lives -= 1; 
     }
+    public void TakeDamage() //For ballon explosion
+    {
+        if (lives <= 0)
+        {
+            RestartLevel();
+        }
+        else
+        {
+            hearts[lives].SetActive(false);
+            lives -= 1;
+        }
+    }
+
 
     public void RestartLevel()
     {
         Scene currentScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(currentScene.name);
     }
+
+
 
 }
