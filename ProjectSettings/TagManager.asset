@@ -12,6 +12,7 @@ TagManager:
   - Limit
   - Cactus
   - Coin
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
