@@ -11,6 +11,7 @@ TagManager:
   - Live
   - Limit
   - Cactus
+  - Coin
   layers:
   - Default
   - TransparentFX

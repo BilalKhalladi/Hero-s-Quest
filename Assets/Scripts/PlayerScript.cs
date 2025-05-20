@@ -113,11 +113,15 @@ public class PlayerMovement : MonoBehaviour
             isGrounded = true;
             animator.SetBool("Grounded", true);
         }
+        if (collision.gameObject.CompareTag("Coin")){
+
+            Destroy(collision.gameObject);
+        }
     }
 
     private IEnumerator DecreaseLivesWithDelay()
     {
-        yield return new WaitForSeconds(1f); 
+        yield return new WaitForSeconds(0.5f); 
         lives -= 1; 
     }
     public void TakeDamage() //For ballon explosion
