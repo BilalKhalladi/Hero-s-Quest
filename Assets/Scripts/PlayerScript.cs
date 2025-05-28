@@ -12,27 +12,23 @@ public class PlayerMovement : MonoBehaviour
     private bool onIce = false;
     private float velocityXSmoothing;
     private Animator animator;
-    private Animator button;
     private int lives = 3;
     public GameObject[] hearts;
 
-    // --- NUEVO: punto de spawn dinámica ---
     private Vector3 spawnPoint;
 
-    private void Start()
+    void Start()
     {
         body = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        button = GetComponent<Animator>();
 
         if (SceneManager.GetActiveScene().name == "Level 2")
             onIce = true;
 
-        // Inicializamos spawnPoint a la posición inicial del jugador
         spawnPoint = transform.position;
     }
 
-    private void Update()
+    void Update()
     {
         if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)) && isGrounded)
         {
@@ -49,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("Run", horizontalInput != 0);
     }
 
-    private void FixedUpdate()
+    void FixedUpdate()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
 
@@ -65,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Trap"))
         {
@@ -89,7 +85,6 @@ public class PlayerMovement : MonoBehaviour
         {
             collision.gameObject.GetComponent<SpriteRenderer>().enabled = false;
             collision.gameObject.GetComponent<Collider2D>().enabled = false;
-
         }
 
         if (collision.gameObject.CompareTag("Live"))
@@ -111,8 +106,14 @@ public class PlayerMovement : MonoBehaviour
             isGrounded = true;
             animator.SetBool("Grounded", true);
         }
+
         if (collision.gameObject.CompareTag("Coin"))
         {
+            HUDController hud = FindObjectOfType<HUDController>();
+            if (hud != null)
+            {
+                hud.AddCoin(1);
+            }
             Destroy(collision.gameObject);
         }
 
@@ -131,10 +132,8 @@ public class PlayerMovement : MonoBehaviour
                 if (barrelAnimator != null)
                 {
                     barrelAnimator.SetTrigger("ExplodeBarrel");
-
-                    // Also find wall and pass both to the coroutine
                     GameObject wall = GameObject.FindGameObjectWithTag("Wall");
-                    StartCoroutine(DestroyBarrelAndWall(barrel, wall, 0.3f)); 
+                    StartCoroutine(DestroyBarrelAndWall(barrel, wall, 0.3f));
                 }
             }
         }
@@ -153,18 +152,24 @@ public class PlayerMovement : MonoBehaviour
                 }
             }
         }
-
-
     }
 
-private IEnumerator LoadNextLevelAfterDelay(float delay)
-{
-    yield return new WaitForSeconds(delay);
-    SceneManager.LoadScene("Level 2");
-}
+    private IEnumerator LoadNextLevelAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        // Buscamos el HUDController en la escena
+        HUDController hud = FindObjectOfType<HUDController>();
+        if (hud != null)
+        {
+            hud.GuardarMarca(); // Guardamos los datos antes de cambiar de escena
+        }
+
+        SceneManager.LoadScene("Level 2");
+    }
 
 
-private IEnumerator DestroyBarrelAndWall(GameObject barrel, GameObject wall, float delay)
+    private IEnumerator DestroyBarrelAndWall(GameObject barrel, GameObject wall, float delay)
     {
         yield return new WaitForSeconds(delay);
 
@@ -176,8 +181,7 @@ private IEnumerator DestroyBarrelAndWall(GameObject barrel, GameObject wall, flo
         Destroy(barrel);
     }
 
-
-private void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Checkpoint"))
         {
@@ -192,7 +196,7 @@ private void OnTriggerEnter2D(Collider2D other)
         lives -= 1;
     }
 
-    public void TakeDamage() //For balloon explosion
+    public void TakeDamage()
     {
         if (lives <= 0)
         {
@@ -205,16 +209,11 @@ private void OnTriggerEnter2D(Collider2D other)
         }
     }
 
-    // ---------------------------------------------
-    // Aquí el RestartLevel() restaurador de corazones
-    // ---------------------------------------------
     public void RestartLevel()
     {
-        // 1) Teletransporta al último checkpoint
         transform.position = spawnPoint;
         body.linearVelocity = Vector2.zero;
 
-        // 2) Restaura vidas y vuelve a activar todos los corazones
         lives = hearts.Length - 1;
         for (int i = 0; i < hearts.Length; i++)
         {

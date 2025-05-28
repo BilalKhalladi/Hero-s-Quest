@@ -13,5 +13,10 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
         Debug.Log("Salir del juego");
     }
+
+    public void RankingMenu()
+    {
+        SceneManager.LoadScene("RankingMenu");
+    }
 }
 
