@@ -1,0 +1,988 @@
+fileFormatVersion: 2
+guid: 695d1fffaae616542a1b7346ad570dc9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4297591395542229845
+    second: Pixel GUI Buttons pack 3_0
+  - first:
+      213: -5699332286332887542
+    second: Pixel GUI Buttons pack 3_1
+  - first:
+      213: 5457173880443232960
+    second: Pixel GUI Buttons pack 3_2
+  - first:
+      213: -8364717683122277171
+    second: Pixel GUI Buttons pack 3_3
+  - first:
+      213: -7674038082187055288
+    second: Pixel GUI Buttons pack 3_4
+  - first:
+      213: 1192920485651042462
+    second: Pixel GUI Buttons pack 3_5
+  - first:
+      213: 3728411689547474363
+    second: Pixel GUI Buttons pack 3_6
+  - first:
+      213: 2481370225944214540
+    second: Pixel GUI Buttons pack 3_7
+  - first:
+      213: 7247452331408322515
+    second: Pixel GUI Buttons pack 3_8
+  - first:
+      213: -62842504014006248
+    second: Pixel GUI Buttons pack 3_9
+  - first:
+      213: 2636184961092628102
+    second: Pixel GUI Buttons pack 3_10
+  - first:
+      213: -899849055654626010
+    second: Pixel GUI Buttons pack 3_11
+  - first:
+      213: -8634008812676062463
+    second: Pixel GUI Buttons pack 3_12
+  - first:
+      213: 1649913142454815101
+    second: Pixel GUI Buttons pack 3_13
+  - first:
+      213: -944113996865680384
+    second: Pixel GUI Buttons pack 3_14
+  - first:
+      213: -7009168911341328460
+    second: Pixel GUI Buttons pack 3_15
+  - first:
+      213: -5107901192473023544
+    second: Pixel GUI Buttons pack 3_16
+  - first:
+      213: 2615083173265916184
+    second: Pixel GUI Buttons pack 3_17
+  - first:
+      213: -4048291465609875933
+    second: Pixel GUI Buttons pack 3_18
+  - first:
+      213: 2266008065872361190
+    second: Pixel GUI Buttons pack 3_19
+  - first:
+      213: -2126768132522677141
+    second: Pixel GUI Buttons pack 3_20
+  - first:
+      213: 3258583698188079836
+    second: Pixel GUI Buttons pack 3_21
+  - first:
+      213: 488379202604555070
+    second: Pixel GUI Buttons pack 3_22
+  - first:
+      213: -7576405480977583579
+    second: Pixel GUI Buttons pack 3_23
+  - first:
+      213: 7719108854716116942
+    second: Pixel GUI Buttons pack 3_24
+  - first:
+      213: 5884899225184340675
+    second: Pixel GUI Buttons pack 3_25
+  - first:
+      213: 5030038447484993310
+    second: Pixel GUI Buttons pack 3_26
+  - first:
+      213: 5997996331207360625
+    second: Pixel GUI Buttons pack 3_27
+  - first:
+      213: -7907946897575009848
+    second: Pixel GUI Buttons pack 3_28
+  - first:
+      213: -4861946522292194707
+    second: Pixel GUI Buttons pack 3_29
+  - first:
+      213: 1154642340552897570
+    second: Pixel GUI Buttons pack 3_30
+  - first:
+      213: -7985454407398358252
+    second: Pixel GUI Buttons pack 3_31
+  - first:
+      213: -3210818233521909240
+    second: Pixel GUI Buttons pack 3_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 384
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac1ee63563eb54c0800000000000000
+      internalID: -4297591395542229845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e96306b77e7e0b0800000000000000
+      internalID: -5699332286332887542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2eb5d1bb6cbbb40800000000000000
+      internalID: 5457173880443232960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4711bd59d8aeb80800000000000000
+      internalID: -8364717683122277171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fab66e507508590800000000000000
+      internalID: -7674038082187055288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9054808cda1e8010800000000000000
+      internalID: 1192920485651042462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb524eb7daafdb330800000000000000
+      internalID: 3728411689547474363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cb2a9d2199f6220800000000000000
+      internalID: 2481370225944214540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df6b2c2f7f149460800000000000000
+      internalID: 7247452331408322515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818f277531db02ff0800000000000000
+      internalID: -62842504014006248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e2728414c959420800000000000000
+      internalID: 2636184961092628102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d3c3e2d081383f0800000000000000
+      internalID: -899849055654626010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103e9d4dab6dd2880800000000000000
+      internalID: -8634008812676062463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79844ee24ba5e610800000000000000
+      internalID: 1649913142454815101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00cc85d6255d5e2f0800000000000000
+      internalID: -944113996865680384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7e9c4e20e6abe90800000000000000
+      internalID: -7009168911341328460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbe9d2ade61d19b0800000000000000
+      internalID: -5107901192473023544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811cd907a44aa4420800000000000000
+      internalID: 2615083173265916184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ee31d5c5491d7c0800000000000000
+      internalID: -4048291465609875933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6fd70845a727f10800000000000000
+      internalID: 2266008065872361190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c6d5dc6a33c72e0800000000000000
+      internalID: -2126768132522677141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd21169db90d83d20800000000000000
+      internalID: 3258583698188079836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bdee61c4217c600800000000000000
+      internalID: 488379202604555070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52232084b533bd690800000000000000
+      internalID: -7576405480977583579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf2de31b98cf1b60800000000000000
+      internalID: 7719108854716116942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca85107aac5ba150800000000000000
+      internalID: 5884899225184340675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f76e451594ec540800000000000000
+      internalID: 5030038447484993310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_27
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17006bd62e92d3350800000000000000
+      internalID: 5997996331207360625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_28
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1a36bd134514290800000000000000
+      internalID: -7907946897575009848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62f3ddc565e68cb0800000000000000
+      internalID: -4861946522292194707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224f747571d160010800000000000000
+      internalID: 1154642340552897570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41381f47687fd2190800000000000000
+      internalID: -7985454407398358252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel GUI Buttons pack 3_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802549804d1e073d0800000000000000
+      internalID: -3210818233521909240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pixel GUI Buttons pack 3_0: -4297591395542229845
+      Pixel GUI Buttons pack 3_1: -5699332286332887542
+      Pixel GUI Buttons pack 3_10: 2636184961092628102
+      Pixel GUI Buttons pack 3_11: -899849055654626010
+      Pixel GUI Buttons pack 3_12: -8634008812676062463
+      Pixel GUI Buttons pack 3_13: 1649913142454815101
+      Pixel GUI Buttons pack 3_14: -944113996865680384
+      Pixel GUI Buttons pack 3_15: -7009168911341328460
+      Pixel GUI Buttons pack 3_16: -5107901192473023544
+      Pixel GUI Buttons pack 3_17: 2615083173265916184
+      Pixel GUI Buttons pack 3_18: -4048291465609875933
+      Pixel GUI Buttons pack 3_19: 2266008065872361190
+      Pixel GUI Buttons pack 3_2: 5457173880443232960
+      Pixel GUI Buttons pack 3_20: -2126768132522677141
+      Pixel GUI Buttons pack 3_21: 3258583698188079836
+      Pixel GUI Buttons pack 3_22: 488379202604555070
+      Pixel GUI Buttons pack 3_23: -7576405480977583579
+      Pixel GUI Buttons pack 3_24: 7719108854716116942
+      Pixel GUI Buttons pack 3_25: 5884899225184340675
+      Pixel GUI Buttons pack 3_26: 5030038447484993310
+      Pixel GUI Buttons pack 3_27: 5997996331207360625
+      Pixel GUI Buttons pack 3_28: -7907946897575009848
+      Pixel GUI Buttons pack 3_29: -4861946522292194707
+      Pixel GUI Buttons pack 3_3: -8364717683122277171
+      Pixel GUI Buttons pack 3_30: 1154642340552897570
+      Pixel GUI Buttons pack 3_31: -7985454407398358252
+      Pixel GUI Buttons pack 3_32: -3210818233521909240
+      Pixel GUI Buttons pack 3_4: -7674038082187055288
+      Pixel GUI Buttons pack 3_5: 1192920485651042462
+      Pixel GUI Buttons pack 3_6: 3728411689547474363
+      Pixel GUI Buttons pack 3_7: 2481370225944214540
+      Pixel GUI Buttons pack 3_8: 7247452331408322515
+      Pixel GUI Buttons pack 3_9: -62842504014006248
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

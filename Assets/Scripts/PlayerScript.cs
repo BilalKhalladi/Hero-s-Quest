@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
@@ -11,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     private bool onIce = false;
     private float velocityXSmoothing;
     private Animator animator;
+    private Animator button;
     private int lives = 3;
     public GameObject[] hearts;
 
@@ -21,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     {
         body = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        button = GetComponent<Animator>();
 
         if (SceneManager.GetActiveScene().name == "Level 2")
             onIce = true;
@@ -82,6 +85,13 @@ public class PlayerMovement : MonoBehaviour
             RestartLevel();
         }
 
+        if (collision.gameObject.CompareTag("Key"))
+        {
+            collision.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+            collision.gameObject.GetComponent<Collider2D>().enabled = false;
+
+        }
+
         if (collision.gameObject.CompareTag("Live"))
         {
             if (lives >= hearts.Length - 1)
@@ -105,10 +115,69 @@ public class PlayerMovement : MonoBehaviour
         {
             Destroy(collision.gameObject);
         }
+
+        if (collision.gameObject.CompareTag("Button"))
+        {
+            Animator buttonAnimator = collision.gameObject.GetComponent<Animator>();
+            if (buttonAnimator != null)
+            {
+                buttonAnimator.SetBool("isPressed", true);
+            }
+
+            GameObject barrel = GameObject.FindGameObjectWithTag("Barrel");
+            if (barrel != null)
+            {
+                Animator barrelAnimator = barrel.GetComponent<Animator>();
+                if (barrelAnimator != null)
+                {
+                    barrelAnimator.SetTrigger("ExplodeBarrel");
+
+                    // Also find wall and pass both to the coroutine
+                    GameObject wall = GameObject.FindGameObjectWithTag("Wall");
+                    StartCoroutine(DestroyBarrelAndWall(barrel, wall, 0.3f)); 
+                }
+            }
+        }
+
+        if (collision.gameObject.CompareTag("Door"))
+        {
+            GameObject key = GameObject.Find("key");
+
+            if (key != null)
+            {
+                Animator doorAnimator = collision.gameObject.GetComponent<Animator>();
+                if (doorAnimator != null)
+                {
+                    doorAnimator.SetBool("doorOpen", true);
+                    StartCoroutine(LoadNextLevelAfterDelay(0.2f));
+                }
+            }
+        }
+
+
     }
 
-    // --- NUEVO: captura de checkpoint ---
-    private void OnTriggerEnter2D(Collider2D other)
+private IEnumerator LoadNextLevelAfterDelay(float delay)
+{
+    yield return new WaitForSeconds(delay);
+    SceneManager.LoadScene("Level 2");
+}
+
+
+private IEnumerator DestroyBarrelAndWall(GameObject barrel, GameObject wall, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        if (wall != null)
+        {
+            wall.SetActive(false);
+        }
+
+        Destroy(barrel);
+    }
+
+
+private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Checkpoint"))
         {

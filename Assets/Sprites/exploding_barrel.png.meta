@@ -1,0 +1,1456 @@
+fileFormatVersion: 2
+guid: 167e4af56d2a921458feae2b90019dcb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2440597562409063952
+    second: exploding_barrel_0
+  - first:
+      213: -1446445399743761193
+    second: exploding_barrel_1
+  - first:
+      213: -6922652608435648966
+    second: exploding_barrel_2
+  - first:
+      213: -1881906069421793826
+    second: exploding_barrel_3
+  - first:
+      213: -5571321264874679846
+    second: exploding_barrel_4
+  - first:
+      213: 7795356835671097475
+    second: exploding_barrel_5
+  - first:
+      213: 7671320729838651145
+    second: exploding_barrel_6
+  - first:
+      213: -575562474310653990
+    second: exploding_barrel_7
+  - first:
+      213: -5816567012901131448
+    second: exploding_barrel_8
+  - first:
+      213: -4429462579938940967
+    second: exploding_barrel_9
+  - first:
+      213: 2021874392205233380
+    second: exploding_barrel_10
+  - first:
+      213: -8555173373520947743
+    second: exploding_barrel_11
+  - first:
+      213: 1483554932511277149
+    second: exploding_barrel_12
+  - first:
+      213: 5005045569990726269
+    second: exploding_barrel_13
+  - first:
+      213: -1347886506307881100
+    second: exploding_barrel_14
+  - first:
+      213: -2548908555513703993
+    second: exploding_barrel_15
+  - first:
+      213: -8286081870667400966
+    second: exploding_barrel_16
+  - first:
+      213: -6282279140124976557
+    second: exploding_barrel_17
+  - first:
+      213: -3976194652075845577
+    second: exploding_barrel_18
+  - first:
+      213: 8104473724172961603
+    second: exploding_barrel_19
+  - first:
+      213: 4585240445109415287
+    second: exploding_barrel_20
+  - first:
+      213: -5003150156348585591
+    second: exploding_barrel_21
+  - first:
+      213: 7661210261661451010
+    second: exploding_barrel_22
+  - first:
+      213: 6855259655844303624
+    second: exploding_barrel_23
+  - first:
+      213: 3183042109170275390
+    second: exploding_barrel_24
+  - first:
+      213: 5305825720094118010
+    second: exploding_barrel_25
+  - first:
+      213: 3612207559821222781
+    second: exploding_barrel_26
+  - first:
+      213: -7748495942866908402
+    second: exploding_barrel_27
+  - first:
+      213: 6285209497962053084
+    second: exploding_barrel_28
+  - first:
+      213: 6414110415784249981
+    second: exploding_barrel_29
+  - first:
+      213: 2754378413605100470
+    second: exploding_barrel_30
+  - first:
+      213: 9041236704964253626
+    second: exploding_barrel_31
+  - first:
+      213: 2667564422474541681
+    second: exploding_barrel_32
+  - first:
+      213: 8726797630429615803
+    second: exploding_barrel_33
+  - first:
+      213: 5520374043752926908
+    second: exploding_barrel_34
+  - first:
+      213: -5675088839276856849
+    second: exploding_barrel_35
+  - first:
+      213: -3779602828729689799
+    second: exploding_barrel_36
+  - first:
+      213: 7819942346544121475
+    second: exploding_barrel_37
+  - first:
+      213: -534858035677013137
+    second: exploding_barrel_38
+  - first:
+      213: -814340249928001214
+    second: exploding_barrel_39
+  - first:
+      213: 2326366821919986922
+    second: exploding_barrel_40
+  - first:
+      213: -1529583450931486177
+    second: exploding_barrel_41
+  - first:
+      213: 5368523340550138454
+    second: exploding_barrel_42
+  - first:
+      213: -7493657937342743053
+    second: exploding_barrel_43
+  - first:
+      213: -424239239071716365
+    second: exploding_barrel_44
+  - first:
+      213: 6455745167674217903
+    second: exploding_barrel_45
+  - first:
+      213: 2083011189583687750
+    second: exploding_barrel_46
+  - first:
+      213: 6579245337202796259
+    second: exploding_barrel_47
+  - first:
+      213: -8406403106827740113
+    second: exploding_barrel_48
+  - first:
+      213: 1155481357296596594
+    second: exploding_barrel_49
+  - first:
+      213: -6051369256749240906
+    second: exploding_barrel_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: exploding_barrel_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 511
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f96ce4a271412ed0800000000000000
+      internalID: -2440597562409063952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 511
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4764192913debe0800000000000000
+      internalID: -1446445399743761193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 505
+        width: 76
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3603c2612ccdef90800000000000000
+      internalID: -6922652608435648966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_3
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 500
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd567f866022e5e0800000000000000
+      internalID: -1881906069421793826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 352
+        width: 87
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad19095e3d0bea2b0800000000000000
+      internalID: -5571321264874679846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_5
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 352
+        width: 92
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380c69f8dbbae2c60800000000000000
+      internalID: 7795356835671097475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 352
+        width: 93
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9078f143f81067a60800000000000000
+      internalID: 7671320729838651145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_7
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 411
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad72ba4aaf03308f0800000000000000
+      internalID: -575562474310653990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_8
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 415
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84be5c78e17674fa0800000000000000
+      internalID: -5816567012901131448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_9
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 388
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7aad870436782c0800000000000000
+      internalID: -4429462579938940967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 377
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec0adf1c042f0c10800000000000000
+      internalID: 2021874392205233380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_11
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 360
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5576fd42be54980800000000000000
+      internalID: -8555173373520947743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 360
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d500d15d955a69410800000000000000
+      internalID: 1483554932511277149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 337
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7290f39d6e757540800000000000000
+      internalID: 5005045569990726269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_14
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 329
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477f9f92d585b4de0800000000000000
+      internalID: -1347886506307881100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 333
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1d6a76c2570acd0800000000000000
+      internalID: -2548908555513703993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_16
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 325
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8b01fa07ce10d80800000000000000
+      internalID: -8286081870667400966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_17
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 329
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a1101386cd0d8a0800000000000000
+      internalID: -6282279140124976557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_18
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 322
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738163dd708b1d8c0800000000000000
+      internalID: -3976194652075845577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_19
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 192
+        width: 94
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34701dca9efd87070800000000000000
+      internalID: 8104473724172961603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_20
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 286
+        width: 53
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d208424eb02af30800000000000000
+      internalID: 4585240445109415287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_21
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 298
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98907ecc07d319ab0800000000000000
+      internalID: -5003150156348585591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_22
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 274
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20388e36426125a60800000000000000
+      internalID: 7661210261661451010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_23
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 192
+        width: 90
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8039aa51656c22f50800000000000000
+      internalID: 6855259655844303624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_24
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 271
+        width: 43
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34543e0fef6c2c20800000000000000
+      internalID: 3183042109170275390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_25
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 257
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a705756816412a940800000000000000
+      internalID: 5305825720094118010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_26
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 271
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73ef1a23a3212230800000000000000
+      internalID: 3612207559821222781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_27
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 252
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bccd54effc77490800000000000000
+      internalID: -7748495942866908402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_28
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 263
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd70f8ecbc893750800000000000000
+      internalID: 6285209497962053084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_29
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 249
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a04f2907f730950800000000000000
+      internalID: 6414110415784249981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 203
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb9fe7e294893620800000000000000
+      internalID: 2754378413605100470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_31
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 192
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab71e9171ece87d70800000000000000
+      internalID: 9041236704964253626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17aa01975b7150520800000000000000
+      internalID: 2667564422474541681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_33
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 166
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb65a745530db1970800000000000000
+      internalID: 8726797630429615803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_34
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 161
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe0e21d1fe4c9c40800000000000000
+      internalID: 5520374043752926908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_35
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe97e12c4c80e31b0800000000000000
+      internalID: -5675088839276856849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_36
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 146
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9395181a0472c8bc0800000000000000
+      internalID: -3779602828729689799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_37
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 142
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3860cc1e124068c60800000000000000
+      internalID: 7819942346544121475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_38
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 146
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b553a437dc398f0800000000000000
+      internalID: -534858035677013137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_39
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 135
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2491db47bd1e2b4f0800000000000000
+      internalID: -814340249928001214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_40
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 128
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae49bc58c4ae84020800000000000000
+      internalID: 2326366821919986922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_41
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 127
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12a9e894f3d5cae0800000000000000
+      internalID: -1529583450931486177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_42
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 107
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a62e9d883d08a40800000000000000
+      internalID: 5368523340550138454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_43
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 116
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd36602fcd210890800000000000000
+      internalID: -7493657937342743053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_44
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 97
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb2957e8accc1af0800000000000000
+      internalID: -424239239071716365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_45
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 104
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa59aa7a60a679950800000000000000
+      internalID: 6455745167674217903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_46
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 103
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640bc4204a758ec10800000000000000
+      internalID: 2083011189583687750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_47
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 65
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e62e1e96cc2e4b50800000000000000
+      internalID: 6579245337202796259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_48
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 32
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2cdac2d9e4765b80800000000000000
+      internalID: -8406403106827740113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_49
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 32
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276ff362c28190010800000000000000
+      internalID: 1155481357296596594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exploding_barrel_50
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 32
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdedb6f8b7350ca0800000000000000
+      internalID: -6051369256749240906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      exploding_barrel_0: -2440597562409063952
+      exploding_barrel_1: -1446445399743761193
+      exploding_barrel_10: 2021874392205233380
+      exploding_barrel_11: -8555173373520947743
+      exploding_barrel_12: 1483554932511277149
+      exploding_barrel_13: 5005045569990726269
+      exploding_barrel_14: -1347886506307881100
+      exploding_barrel_15: -2548908555513703993
+      exploding_barrel_16: -8286081870667400966
+      exploding_barrel_17: -6282279140124976557
+      exploding_barrel_18: -3976194652075845577
+      exploding_barrel_19: 8104473724172961603
+      exploding_barrel_2: -6922652608435648966
+      exploding_barrel_20: 4585240445109415287
+      exploding_barrel_21: -5003150156348585591
+      exploding_barrel_22: 7661210261661451010
+      exploding_barrel_23: 6855259655844303624
+      exploding_barrel_24: 3183042109170275390
+      exploding_barrel_25: 5305825720094118010
+      exploding_barrel_26: 3612207559821222781
+      exploding_barrel_27: -7748495942866908402
+      exploding_barrel_28: 6285209497962053084
+      exploding_barrel_29: 6414110415784249981
+      exploding_barrel_3: -1881906069421793826
+      exploding_barrel_30: 2754378413605100470
+      exploding_barrel_31: 9041236704964253626
+      exploding_barrel_32: 2667564422474541681
+      exploding_barrel_33: 8726797630429615803
+      exploding_barrel_34: 5520374043752926908
+      exploding_barrel_35: -5675088839276856849
+      exploding_barrel_36: -3779602828729689799
+      exploding_barrel_37: 7819942346544121475
+      exploding_barrel_38: -534858035677013137
+      exploding_barrel_39: -814340249928001214
+      exploding_barrel_4: -5571321264874679846
+      exploding_barrel_40: 2326366821919986922
+      exploding_barrel_41: -1529583450931486177
+      exploding_barrel_42: 5368523340550138454
+      exploding_barrel_43: -7493657937342743053
+      exploding_barrel_44: -424239239071716365
+      exploding_barrel_45: 6455745167674217903
+      exploding_barrel_46: 2083011189583687750
+      exploding_barrel_47: 6579245337202796259
+      exploding_barrel_48: -8406403106827740113
+      exploding_barrel_49: 1155481357296596594
+      exploding_barrel_5: 7795356835671097475
+      exploding_barrel_50: -6051369256749240906
+      exploding_barrel_6: 7671320729838651145
+      exploding_barrel_7: -575562474310653990
+      exploding_barrel_8: -5816567012901131448
+      exploding_barrel_9: -4429462579938940967
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -13,6 +13,11 @@ TagManager:
   - Cactus
   - Coin
   - Checkpoint
+  - Button
+  - Barrel
+  - Wall
+  - Key
+  - Door
   layers:
   - Default
   - TransparentFX
