@@ -18,5 +18,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("RankingMenu");
     }
+
+    public void BackMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }
 

@@ -23,7 +23,9 @@ public class HUDController : MonoBehaviour
 
     void Update()
     {
-        
+
+        if (Time.timeScale == 0f) return; 
+
         timer += Time.deltaTime;
 
         int minutes = Mathf.FloorToInt(timer / 60f);
