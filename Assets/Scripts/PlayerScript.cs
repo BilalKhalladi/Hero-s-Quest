@@ -14,6 +14,15 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private int lives = 3;
     public GameObject[] hearts;
+    public AudioClip jumpSound;
+    public AudioClip barrelExplode;
+    public AudioClip coinSound;
+    public AudioClip heartSound;
+    public AudioClip keySound;
+    public AudioClip damageSound;
+
+    private AudioSource audioSource;
+
 
     private Vector3 spawnPoint;
 
@@ -21,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
     {
         body = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
 
         if (SceneManager.GetActiveScene().name == "Level 2")
             onIce = true;
@@ -35,6 +45,8 @@ public class PlayerMovement : MonoBehaviour
             body.linearVelocity = new Vector2(body.linearVelocity.x, jumpForce);
             isGrounded = false;
             animator.SetBool("Grounded", false);
+            PlaySoundByTag("Jump");
+
         }
 
         float horizontalInput = Input.GetAxis("Horizontal");
@@ -85,6 +97,7 @@ public class PlayerMovement : MonoBehaviour
         {
             collision.gameObject.GetComponent<SpriteRenderer>().enabled = false;
             collision.gameObject.GetComponent<Collider2D>().enabled = false;
+            PlaySoundByTag(collision.gameObject.tag);
         }
 
         if (collision.gameObject.CompareTag("Live"))
@@ -92,12 +105,14 @@ public class PlayerMovement : MonoBehaviour
             if (lives >= hearts.Length - 1)
             {
                 Destroy(collision.gameObject);
+                PlaySoundByTag(collision.gameObject.tag);
             }
             else
             {
                 lives += 1;
                 hearts[lives].SetActive(true);
                 Destroy(collision.gameObject);
+                PlaySoundByTag(collision.gameObject.tag);
             }
         }
 
@@ -115,6 +130,7 @@ public class PlayerMovement : MonoBehaviour
                 hud.AddCoin(1);
             }
             Destroy(collision.gameObject);
+            PlaySoundByTag(collision.gameObject.tag);
         }
 
         if (collision.gameObject.CompareTag("Button"))
@@ -176,6 +192,8 @@ public class PlayerMovement : MonoBehaviour
         if (wall != null)
         {
             wall.SetActive(false);
+            PlaySoundByTag(barrel.tag);
+
         }
 
         Destroy(barrel);
@@ -192,6 +210,7 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator DecreaseLivesWithDelay()
     {
+        PlaySoundByTag("Trap");
         yield return new WaitForSeconds(0.5f);
         lives -= 1;
     }
@@ -219,5 +238,37 @@ public class PlayerMovement : MonoBehaviour
         {
             hearts[i].SetActive(true);
         }
+    }
+
+    private void PlaySoundByTag(string tag)
+    {
+        switch (tag)
+        {
+            case "Coin":
+                PlaySound(coinSound);
+                break;
+            case "Live":
+                PlaySound(heartSound);
+                break;
+            case "Barrel":
+                PlaySound(barrelExplode);
+                break;
+            case "Jump":
+                PlaySound(jumpSound);
+                break;
+            case "Key":
+                PlaySound(keySound);
+                break;
+            case "Trap":
+                PlaySound(damageSound);
+                break;
+            default:
+                break;
+        }
+    }
+    private void PlaySound(AudioClip clip)
+    {
+        if (clip != null && audioSource != null)
+            audioSource.PlayOneShot(clip);
     }
 }

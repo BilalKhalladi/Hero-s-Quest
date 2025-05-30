@@ -1,3 +1,4 @@
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class Balloon : MonoBehaviour
@@ -6,9 +7,13 @@ public class Balloon : MonoBehaviour
     private bool isExploding = false;
     public float damageRadius = 2f;
     private GameObject platform;
+    public AudioClip ballonPop;
+    private AudioSource audioSource;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
         platform = GameObject.Find("PlatformBallon");
 
     }
@@ -32,6 +37,7 @@ public class Balloon : MonoBehaviour
             if (stateInfo.IsName("BallonExplode") && stateInfo.normalizedTime >= 1f)
             {
                 TryDamagePlayer();
+                PlayPopSound();
                 Destroy(gameObject);
                 Destroy(platform);
             }
@@ -49,5 +55,10 @@ public class Balloon : MonoBehaviour
                 player.GetComponent<PlayerMovement>().TakeDamage();
             }
         }
+    }
+    void PlayPopSound()
+    {
+        if (ballonPop != null)
+            audioSource.PlayOneShot(ballonPop);
     }
 }
