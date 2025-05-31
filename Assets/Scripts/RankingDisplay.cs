@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using System.Collections.Generic;
 
+
 public class RankingDisplay : MonoBehaviour
 {
     public TMP_Text rankingNivel1;
@@ -13,34 +14,42 @@ public class RankingDisplay : MonoBehaviour
         MostrarRanking("Level 2", rankingNivel2);
     }
 
-    void MostrarRanking(string nivel, TMP_Text rankingNivel2)
+    void MostrarRanking(string nivel, TMP_Text textoUI)
     {
-        string keyLista = nivel + "_Jugadores";
-        string lista = PlayerPrefs.GetString(keyLista, "");
-        string[] jugadores = lista.Split(',');
+        string key = nivel + "_Top5";
+        string json = PlayerPrefs.GetString(key, "");
 
-        List<MarcaJugador> ranking = new List<MarcaJugador>();
-
-        foreach (string jugador in jugadores)
+        if (string.IsNullOrEmpty(json))
         {
-            if (string.IsNullOrWhiteSpace(jugador)) continue;
-
-            float tiempo = PlayerPrefs.GetFloat(nivel + "_" + jugador + "_Time", float.MaxValue);
-            int monedas = PlayerPrefs.GetInt(nivel + "_" + jugador + "_Coins", 0);
-            float distancia = PlayerPrefs.GetFloat(nivel + "_" + jugador + "_Distance", 0f);
-
-            ranking.Add(new MarcaJugador(jugador, tiempo, monedas, distancia));
+            textoUI.text = "No hay datos aún.";
+            return;
         }
 
-        ranking.Sort((a, b) => a.tiempo.CompareTo(b.tiempo));
+        MarcaJugadorLista lista = JsonUtility.FromJson<MarcaJugadorLista>(json);
 
-        foreach (MarcaJugador entry in ranking)
+        if (lista == null || lista.marcas.Count == 0)
         {
-            Debug.Log($"Jugador: {entry.nombre} - Tiempo: {entry.tiempo} - Monedas: {entry.monedas} - Distancia: {entry.distancia}");
+            textoUI.text = "No hay datos aún.";
+            return;
         }
+
+        string textoFinal = "";
+        int posicion = 1;
+
+        foreach (var entry in lista.marcas)
+        {
+            int min = Mathf.FloorToInt(entry.tiempo / 60f);
+            int seg = Mathf.FloorToInt(entry.tiempo % 60f);
+            textoFinal += $"{posicion}. {entry.nombre} - {min:00}:{seg:00} - {entry.monedas} monedas - {entry.distancia:F1} m\n";
+            posicion++;
+        }
+
+        textoUI.text = textoFinal;
     }
 
-    class MarcaJugador
+
+    [System.Serializable]
+    public class MarcaJugador
     {
         public string nombre;
         public float tiempo;
@@ -56,10 +65,16 @@ public class RankingDisplay : MonoBehaviour
         }
     }
 
+    [System.Serializable]
+    public class MarcaJugadorLista
+    {
+        public List<MarcaJugador> marcas = new List<MarcaJugador>();
+    }
+
 
     List<string> PlayerPrefsKeys()
     {
-        return new List<string>(); // de momento vacío, podemos resolverlo en el siguiente paso si te interesa
+        return new List<string>();
     }
 }
 

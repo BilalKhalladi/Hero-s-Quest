@@ -2,6 +2,9 @@
 using TMPro;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
+using System.Linq;
+
+using static RankingDisplay;
 
 public class HUDController : MonoBehaviour
 {
@@ -46,26 +49,39 @@ public class HUDController : MonoBehaviour
     {
         coins += amount;
     }
-
     public void GuardarMarca()
     {
         string nivel = SceneManager.GetActiveScene().name;
         string playerName = PlayerPrefs.GetString("PlayerName", "Unknown");
 
-        string key = nivel + "_" + playerName;
+        MarcaJugador nuevaMarca = new MarcaJugador(playerName, timer, coins, distance);
 
-        float bestTime = PlayerPrefs.GetFloat(key + "_Time", float.MaxValue);
-        if (timer < bestTime)
+        string key = nivel + "_Top5";
+        string jsonGuardado = PlayerPrefs.GetString(key, "");
+
+        MarcaJugadorLista lista;
+
+        if (string.IsNullOrEmpty(jsonGuardado))
         {
-            PlayerPrefs.SetFloat(key + "_Time", timer);
-            PlayerPrefs.SetFloat(key + "_Distance", distance);
-            PlayerPrefs.SetInt(key + "_Coins", coins);
-            PlayerPrefs.Save();
+            lista = new MarcaJugadorLista();
+        }
+        else
+        {
+            lista = JsonUtility.FromJson<MarcaJugadorLista>(jsonGuardado);
         }
 
-        // 👇 Llamamos a esta función para asegurarnos que el jugador esté en la lista
-        AñadirJugadorAlRanking(nivel, playerName);
+        lista.marcas.Add(nuevaMarca);
+        lista.marcas.Sort((a, b) => a.tiempo.CompareTo(b.tiempo));
+        if (lista.marcas.Count > 5)
+            lista.marcas = lista.marcas.GetRange(0, 5);
+
+        string nuevoJson = JsonUtility.ToJson(lista);
+        PlayerPrefs.SetString(key, nuevoJson);
+        PlayerPrefs.Save();
+
+        Debug.Log($"[Ranking] Guardada marca en {nivel}: {playerName} - {timer}");
     }
+
 
     void AñadirJugadorAlRanking(string nivel, string nombre)
     {
