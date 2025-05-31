@@ -174,11 +174,10 @@ public class PlayerMovement : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
 
-        // Buscamos el HUDController en la escena
         HUDController hud = FindObjectOfType<HUDController>();
         if (hud != null)
         {
-            hud.GuardarMarca(); // Guardamos los datos antes de cambiar de escena
+            hud.GuardarMarca(); 
         }
 
         SceneManager.LoadScene("Level 2");

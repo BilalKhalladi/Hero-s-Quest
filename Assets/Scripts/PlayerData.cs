@@ -13,6 +13,11 @@ public class PlayerData : MonoBehaviour
 
         PlayerPrefs.SetString("PlayerName", playerName);
         PlayerPrefs.Save();
-        SceneManager.LoadScene("Level 1"); // o el nivel que corresponda
+
+        Time.timeScale = 1f; 
+
+        SceneManager.LoadScene("Level 1");
+
     }
+
 }
