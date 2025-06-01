@@ -6,6 +6,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip menuMusic;
     public AudioClip level1Music;
     public AudioClip level2;
+    public AudioClip win;
 
     private AudioSource audioSource;
 
@@ -42,7 +43,9 @@ public class AudioManager : MonoBehaviour
             case "Level 2":
                 PlayMusic(level2);
                 break;
-
+            case "Win":
+                PlayMusic(win);
+                break;
             default:
                 break;
         }

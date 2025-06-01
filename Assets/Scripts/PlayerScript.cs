@@ -122,6 +122,11 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("Grounded", true);
         }
 
+        if (collision.gameObject.CompareTag("Win"))
+        {
+            SceneManager.LoadScene("Win");
+        }
+
         if (collision.gameObject.CompareTag("Coin"))
         {
             HUDController hud = FindObjectOfType<HUDController>();
