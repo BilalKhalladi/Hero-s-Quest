@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 3914096873324857058}
   - component: {fileID: 4439404671202723279}
   - component: {fileID: 2307112605830516047}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plasma
-  m_TagString: Untagged
+  m_TagString: Plasma
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

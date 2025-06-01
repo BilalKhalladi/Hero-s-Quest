@@ -2373,6 +2373,7 @@ MonoBehaviour:
   speed: 2
   moveDistance: 2
   moveVertically: 1
+  IsEnemy: 0
 --- !u!1 &605975103
 GameObject:
   m_ObjectHideFlags: 0
@@ -13322,11 +13323,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6669563286449662040, guid: 9eba58426f071ba48b17c9f1bf1da6da, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 66.7
+      value: -44
       objectReference: {fileID: 0}
     - target: {fileID: 6669563286449662040, guid: 9eba58426f071ba48b17c9f1bf1da6da, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.6
+      value: -1.3
       objectReference: {fileID: 0}
     - target: {fileID: 6669563286449662040, guid: 9eba58426f071ba48b17c9f1bf1da6da, type: 3}
       propertyPath: m_LocalPosition.z

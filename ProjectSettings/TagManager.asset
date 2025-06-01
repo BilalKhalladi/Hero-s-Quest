@@ -18,16 +18,17 @@ TagManager:
   - Wall
   - Key
   - Door
+  - Plasma
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Plasma
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Player
+  - Ground
+  - Ice
   - 
   - 
   - 
