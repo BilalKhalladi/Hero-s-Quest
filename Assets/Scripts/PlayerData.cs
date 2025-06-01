@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using System.Collections.Generic;
 
 public class PlayerData : MonoBehaviour
 {
@@ -18,6 +19,29 @@ public class PlayerData : MonoBehaviour
 
         SceneManager.LoadScene("Level 1");
 
+    }
+
+    [System.Serializable]
+    public class MarcaJugador
+    {
+        public string nombre;
+        public float tiempo;
+        public int monedas;
+        public float distancia;
+
+        public MarcaJugador(string nombre, float tiempo, int monedas, float distancia)
+        {
+            this.nombre = nombre;
+            this.tiempo = tiempo;
+            this.monedas = monedas;
+            this.distancia = distancia;
+        }
+    }
+
+    [System.Serializable]
+    public class MarcaJugadorLista
+    {
+        public List<MarcaJugador> marcas = new List<MarcaJugador>();
     }
 
 }

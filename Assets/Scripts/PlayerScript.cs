@@ -174,13 +174,19 @@ public class PlayerMovement : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
 
-        HUDController hud = FindObjectOfType<HUDController>();
+        HUDController hud = Object.FindFirstObjectByType<HUDController>();
         if (hud != null)
         {
-            hud.GuardarMarca(); 
+            Debug.Log("HUD encontrado, llamando a GuardarMarca()");
+            hud.GuardarMarca();
+            yield return null;
+        }
+        else
+        {
+            Debug.LogWarning("HUDController no encontrado");
         }
 
-        SceneManager.LoadScene("Level 2");
+        SceneManager.LoadScene("Level 2"); // o siguiente nivel
     }
 
 

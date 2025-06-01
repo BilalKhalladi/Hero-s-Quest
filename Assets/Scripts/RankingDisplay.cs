@@ -10,7 +10,7 @@ public class RankingDisplay : MonoBehaviour
 
     void Start()
     {
-        MostrarRanking("Level 1", rankingNivel1);
+        MostrarRanking("SampleScene", rankingNivel1);
         MostrarRanking("Level 2", rankingNivel2);
     }
 
@@ -47,7 +47,6 @@ public class RankingDisplay : MonoBehaviour
         textoUI.text = textoFinal;
     }
 
-
     [System.Serializable]
     public class MarcaJugador
     {
@@ -70,7 +69,6 @@ public class RankingDisplay : MonoBehaviour
     {
         public List<MarcaJugador> marcas = new List<MarcaJugador>();
     }
-
 
     List<string> PlayerPrefsKeys()
     {

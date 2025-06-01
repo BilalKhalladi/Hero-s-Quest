@@ -3,7 +3,6 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using System.Linq;
-
 using static RankingDisplay;
 
 public class HUDController : MonoBehaviour
@@ -53,14 +52,16 @@ public class HUDController : MonoBehaviour
     {
         string nivel = SceneManager.GetActiveScene().name;
         string playerName = PlayerPrefs.GetString("PlayerName", "Unknown");
+        Debug.Log("[DEBUG] GuardarMarca() llamado");
+        Debug.Log("[DEBUG] Nombre del jugador: " + playerName);
 
         MarcaJugador nuevaMarca = new MarcaJugador(playerName, timer, coins, distance);
+        Debug.Log($"[DEBUG] Marca nueva: Tiempo {timer}, Monedas {coins}, Distancia {distance}");
 
         string key = nivel + "_Top5";
         string jsonGuardado = PlayerPrefs.GetString(key, "");
 
         MarcaJugadorLista lista;
-
         if (string.IsNullOrEmpty(jsonGuardado))
         {
             lista = new MarcaJugadorLista();
@@ -76,10 +77,11 @@ public class HUDController : MonoBehaviour
             lista.marcas = lista.marcas.GetRange(0, 5);
 
         string nuevoJson = JsonUtility.ToJson(lista);
+        Debug.Log($"[DEBUG] JSON generado: {nuevoJson}");
+
         PlayerPrefs.SetString(key, nuevoJson);
         PlayerPrefs.Save();
-
-        Debug.Log($"[Ranking] Guardada marca en {nivel}: {playerName} - {timer}");
+        Debug.Log("[DEBUG] Marca guardada correctamente en PlayerPrefs");
     }
 
 

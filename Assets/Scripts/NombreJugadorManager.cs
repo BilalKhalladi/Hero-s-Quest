@@ -12,21 +12,23 @@ public class NombreJugadorManager : MonoBehaviour
 
     void Start()
     {
-        string guardado = PlayerPrefs.GetString("PlayerName", "");
-        inputNombre.text = guardado;
-        botonJugar.interactable = !string.IsNullOrWhiteSpace(guardado);
+        botonJugar.interactable = false;
         inputNombre.onValueChanged.AddListener(VerificarNombre);
+
+        // Restaurar nombre guardado si lo hay
+        string nombreGuardado = PlayerPrefs.GetString("PlayerName", "");
+        inputNombre.text = nombreGuardado;
+        botonJugar.interactable = !string.IsNullOrWhiteSpace(nombreGuardado);
+        nombreJugador = nombreGuardado;
     }
 
-
-    void VerificarNombre(string texto)
+    void VerificarNombre(string valor)
     {
-        bool valido = !string.IsNullOrWhiteSpace(texto);
-        botonJugar.interactable = valido;
+        botonJugar.interactable = !string.IsNullOrWhiteSpace(valor);
 
-        if (valido)
+        if (!string.IsNullOrWhiteSpace(valor))
         {
-            nombreJugador = texto;
+            nombreJugador = valor;
         }
     }
 
@@ -39,9 +41,6 @@ public class NombreJugadorManager : MonoBehaviour
         PlayerPrefs.Save();
 
         Time.timeScale = 1f;
-
         SceneManager.LoadScene(nombreEscena);
     }
-
 }
-
