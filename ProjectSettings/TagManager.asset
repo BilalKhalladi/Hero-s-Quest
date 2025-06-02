@@ -19,6 +19,7 @@ TagManager:
   - Key
   - Door
   - Plasma
+  - Win
   layers:
   - Default
   - TransparentFX
