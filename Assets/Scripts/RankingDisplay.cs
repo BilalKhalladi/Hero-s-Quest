@@ -14,7 +14,7 @@ public class RankingDisplay : MonoBehaviour
         MostrarRanking("Level 2", rankingNivel2);
     }
 
-    void MostrarRanking(string nivel, TMP_Text textoUI)
+    public void MostrarRanking(string nivel, TMP_Text textoUI)
     {
         string key = nivel + "_Top5";
         string json = PlayerPrefs.GetString(key, "");

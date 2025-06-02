@@ -52,6 +52,7 @@ public class HUDController : MonoBehaviour
     {
         string nivel = SceneManager.GetActiveScene().name;
         string playerName = PlayerPrefs.GetString("PlayerName", "Unknown");
+
         Debug.Log("[DEBUG] GuardarMarca() llamado");
         Debug.Log("[DEBUG] Nombre del jugador: " + playerName);
 
@@ -84,21 +85,5 @@ public class HUDController : MonoBehaviour
         Debug.Log("[DEBUG] Marca guardada correctamente en PlayerPrefs");
     }
 
-
-    void AñadirJugadorAlRanking(string nivel, string nombre)
-    {
-        string keyLista = nivel + "_Jugadores";
-        string lista = PlayerPrefs.GetString(keyLista, "");
-
-        List<string> jugadores = new List<string>(lista.Split(','));
-
-        if (!jugadores.Contains(nombre))
-        {
-            jugadores.Add(nombre);
-            string nuevaLista = string.Join(",", jugadores);
-            PlayerPrefs.SetString(keyLista, nuevaLista);
-            PlayerPrefs.Save();
-        }
-    }
 
 }

@@ -179,19 +179,25 @@ public class PlayerMovement : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
 
+        // 1) Guardar la marca del nivel actual
         HUDController hud = Object.FindFirstObjectByType<HUDController>();
         if (hud != null)
         {
-            Debug.Log("HUD encontrado, llamando a GuardarMarca()");
-            hud.GuardarMarca();
-            yield return null;
-        }
-        else
-        {
-            Debug.LogWarning("HUDController no encontrado");
+            hud.GuardarMarca();     // esto almacenará bajo “Level 2_Top5” cuando estés en Nivel 2
+            yield return null;      // para dar tiempo a PlayerPrefs.Save()
         }
 
-        SceneManager.LoadScene("Level 2"); // o siguiente nivel
+        // 2) Decidir si vamos a Nivel 2 o a Win
+        string nivelActual = SceneManager.GetActiveScene().name;
+
+        if (nivelActual == "SampleScene")
+        {
+            SceneManager.LoadScene("Level 2");
+        }
+        else if (nivelActual == "Level 2")
+        {
+            SceneManager.LoadScene("Win"); // tu pantalla final
+        }
     }
 
 
